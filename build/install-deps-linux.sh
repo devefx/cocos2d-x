@@ -24,6 +24,6 @@ DEPENDS+=' libsqlite3-dev'
 DEPENDS+=' libglew-dev'
 DEPENDS+=' libssl-dev'
 DEPENDS+=' libgtk-3-dev'
-DEPENDS+=' binutils'
+DEPENDS+=' binutils-2.26'
 
 sudo apt-get install --force-yes --yes $DEPENDS > /dev/null
